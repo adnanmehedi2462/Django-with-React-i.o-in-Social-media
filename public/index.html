@@ -4,40 +4,100 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+   
+   
+ 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel=icon href=favicon.ico sizes="20x20" type="image/png">
+
+<link rel="stylesheet" href="/bootstrap.min-v4.6.0.css">
+
+<link rel="stylesheet" href="/assets/css/fontawesome.all.min-v5.15.3.css">
+
+<!-- <link rel="stylesheet" href="assets/css/line-awesome.min-v1.0.3.css"> -->
+
+<link rel="stylesheet" href="/slick.min.css">
+
+<link rel="stylesheet" href="/animate.css">
+
+<link rel="stylesheet" href="/magnific-popup.css">
+
+<link rel="stylesheet" href="/main-style.css">
+
+<link rel="stylesheet" href="/responsive.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/font-awesome-line-awesome/css/all.min.css" integrity="sha512-dC0G5HMA6hLr/E1TM623RN6qK+sL8sz5vB+Uc68J7cBon68bMfKcvbkg6OqlfGHo1nMmcCxO5AinnRTDhWbWsA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <style>
+      .react-confirm-alert-button-group > button:nth-child(2) {
+        outline: none;
+        background: #29cd44;
+        border: none;
+        display: inline-block;
+        padding: 6px 18px;
+        color: #eee;
+        margin-right: 10px;
+        border-radius: 5px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .react-confirm-alert-button-group > button:nth-child(1) {
+      outline: none;
+      background: #f80c0c;
+      border: none;
+      display: inline-block;
+      padding: 6px 18px;
+      color: #eee;
+      margin-right: 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      cursor: pointer;
+  }
+ 
+  .react-confirm-alert-body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    padding: 30px;
+    text-align: left;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 75px rgb(0 0 0 / 13%);
+    color: #666;
+}
+.react-confirm-alert-button-group > button{
+  text-align: center;
+}
+.react-confirm-alert-button-group {
+
+  
+  display: block;
+  margin-top: 20px;
+}
+    </style>
+
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    
   </body>
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+<script src="assets/js/jquery-migrate-3.3.2.js"></script>
+
+<script src="assets/js/bootstrap.min-v4.6.0.js"></script>
+
+<script src="assets/js/slick.min.js"></script>
+
+<script src="assets/js/wow.js"></script>
+
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+<script src="assets/js/popper.min.js"></script>
+
+<script src="assets/js/main.js"></script>
 </html>
